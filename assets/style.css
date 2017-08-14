@@ -1,0 +1,31 @@
+
+.clearfix { clear:both; } 
+.gbi_top { margin-top:20px; max-width:1000px; overflow:hidden; } 
+h2.gbtitle span { font-size:30px; margin-right:8px; }
+
+#gbi_mapfields { margin:5px; width:45%; float:left; } 
+#gbi_searchoptions { margin:5px; width:40%; float:left; } 
+
+.gbi_search_area input[type="text"] { width:300px; height:28px; }
+
+.gbi_results_area { margin-top:10px; max-width:1000px; } 
+.gbi_item { width:160px; height:220px; float:left; }
+.gbi_item_meta { width:140px; font-weight:bold; height:72px; overflow:hidden; } 
+
+#selectallbox { margin-bottom:10px; } 
+#importbox { float:right; } 
+
+.gbi_fieldsmaparea { padding:5px; }
+table.gbi_fieldsmaparea_main td:first-child { font-weight:bold; }
+table.gbi_fieldsmaparea_main tr td { padding-right:18px; }
+
+#gbi_mapfields select { min-width:100px; }
+.cfieldremove { text-decoration:none; } 
+
+#settings-page-wrap, #search-page-wrap { margin-top:10px; } 
+
+/* pagination */
+.unipagination { overflow:hidden; }
+.unipagination li { float:left; }
+.unipagination li a { display:block;  background:#0073aa; color:white; padding:4px; min-width:20px; text-align:center; margin:1px;text-decoration:none; font-weight:bold; }
+.unipagination li.active a { background:#d54e21; }
